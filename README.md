@@ -1,1 +1,9 @@
 # UnityShaderProject
+
+This project serves as the final team project for my 3D Graphics and Rendering course at USC CS Games. My teammates and I explored how to utilize GPU programming to construct a dynamic, high-fidelity cosmic scene in this project. The project simulated the Sun, Earth, Moon, Mars, stars, and nebulae within the universe, where I was specifically responsible for the Visual Shading and Ecology Rendering of the Earth-like planet. I developed custom HLSL shaders within the Unity Universal Render Pipeline (URP) to implement an Elevation-Based Biome Layering system. This allowed for smooth, mathematically driven transitions from deep oceans to snowy peaks without relying on pre-baked maps. To eliminate texture repetition on the spherical surface, I engineered a Stochastic Triplanar Mapping algorithm and further utilized Fractal Brownian Motion (FBM) to generate procedural forest distributions within the terrain's grass layers. Additionally, I integrated the lighting pipeline and simulated atmospheric scattering using the Fresnel effect, ensuring a high-fidelity visual experience for the simulated environment. 
+
+Video link :https://www.bilibili.com/video/BV1Zg2iB5E4L/?spm_id_from=333.1387.homepage.video_card.click&vd_source=fc1b61aa4b9305d0cc754afb39b35b47
+
+这是我在 USC CS Games 修读 3D Graphics and Rendering 课程的期末团队项目——程序化宇宙环境模拟 (Procedural Cosmic Environment Simulation)。我与队友在此项目中探索了如何利用 GPU 编程构建一个动态、高保真的宇宙场景。项目模拟了宇宙中的太阳、地球、月球、火星、星星以及星云，其中我主要负责类地行星（地球）的视觉表现与生态着色器开发。我使用 HLSL 在 Unity URP 中编写了自定义 Shader，设计了一套基于高程的生态分层系统 (Elevation-Based Biome Layering)，在不依赖预烘焙贴图的情况下，仅通过数学算法实现了从深海、浅滩、草地到雪顶的自然地貌过渡。针对球体表面的纹理重复问题，我实现了随机采样三向映射 (Stochastic Triplanar Mapping) 算法，并进一步结合 FBM (分形布朗运动) 噪声，在草地层中叠加了程序化的森林分布细节，打破了单一材质的单调感。此外，我还负责接入光照管线并利用菲涅尔效应模拟大气散射，确保了星球在渲染层面的高保真视觉体验。
+
+视频链接：https://www.bilibili.com/video/BV1Zg2iB5E4L/?spm_id_from=333.1387.homepage.video_card.click&vd_source=fc1b61aa4b9305d0cc754afb39b35b47
