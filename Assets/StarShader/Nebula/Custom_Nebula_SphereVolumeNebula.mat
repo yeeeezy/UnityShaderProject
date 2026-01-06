@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_Nebula_SphereVolumeNebula
+  m_Shader: {fileID: 4800000, guid: 48a65ea3fb6c0dd42b0ebcfb539460bf, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Anisotropy: 0.9
+    - _Brightness: 1
+    - _Density: 5
+    - _DustScale: 2
+    - _DustStrength: 0.249
+    - _EdgeFade: 0.3
+    - _Extinction: 1.2
+    - _NoiseScale: 0.4
+    - _Radius: 0.5
+    - _RingInnerRadius: 0.15
+    - _RingOuterRadius: 0.3
+    - _ShellInner: 0.636
+    - _ShellOuter: 0.921
+    - _Steps: 91
+    - _WarpScale: 0.7
+    - _WarpStrength: 1.261
+    m_Colors:
+    - _AnisoScale: {r: 1, g: 0.7, b: 1.3, a: 0}
+    - _ColorCore: {r: 1, g: 0.45056748, b: 0, a: 1}
+    - _ColorEdge: {r: 1, g: 0.38691315, b: 0.19811308, a: 1}
+    - _ColorOuter: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+    - _ColorRing: {r: 0.34905648, g: 0.4648555, b: 1, a: 1}
+    - _LightColor: {r: 1.1, g: 0.95, b: 0.9, a: 1}
+    - _LightDir: {r: 0.2, g: -0.6, b: -0.7, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
